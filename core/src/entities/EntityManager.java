@@ -23,6 +23,7 @@ public class EntityManager {
 
 	public void setup (float width, float height, int R,
 	                   int bBOUNDS, int bPLAYER, int bENTITY) {
+		Entity.R = R;
 		bounds.setup(width, height, R, bBOUNDS, bPLAYER, bENTITY);
 		player.body.setup(width, height, R, bBOUNDS, bPLAYER, bENTITY);
 	}
@@ -30,5 +31,9 @@ public class EntityManager {
 	public void create () {
 		bounds.create(ID.Bounds);
 		player.create();
+	}
+
+	public Entity getPlayer () {
+		return player;
 	}
 }

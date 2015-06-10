@@ -1,8 +1,11 @@
 package entities;
 
+import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 
 public class Entity extends Actor {
+
+	public static int R;
 
 	private static int baseAt;
 
@@ -56,6 +59,10 @@ public class Entity extends Actor {
 	}
 
 	public void create () {
-		body.create(id);
+		body.create(id, size);
+	}
+
+	public Body getBody () {
+		return body.getBody();
 	}
 }

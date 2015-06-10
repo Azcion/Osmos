@@ -1,6 +1,8 @@
 package main;
 
 import com.badlogic.gdx.Game;
+import com.badlogic.gdx.Gdx;
+import handlers.InputHandler;
 
 public class CoreLauncher extends Game {
 
@@ -11,6 +13,7 @@ public class CoreLauncher extends Game {
 
 	@Override
 	public void create () {
-		setScreen(new Main(this));
+		Gdx.input.setInputProcessor(new InputHandler());
+		setScreen(new Main());
 	}
 }

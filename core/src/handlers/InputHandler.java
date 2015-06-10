@@ -1,16 +1,35 @@
 package handlers;
 
+import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.InputProcessor;
 
-public class InputHandler implements InputProcessor {
+public class InputHandler extends KeyStates implements InputProcessor {
 
 	@Override
 	public boolean keyDown (int keycode) {
-		return false;
+		switch (keycode) {
+			case Keys.ESCAPE: setKey(ESCAPE, true); break;
+		}
+		return keycode < KEYCOUNT;
 	}
 
 	@Override
 	public boolean keyUp (int keycode) {
+		switch (keycode) {
+			case Keys.ESCAPE: setKey(ESCAPE, false); break;
+		}
+		return keycode < KEYCOUNT;
+	}
+
+	@Override
+	public boolean mouseMoved (int screenX, int screenY) {
+		cursorX = screenX;
+		cursorY = screenY;
+		return true;
+	}
+
+	@Override
+	public boolean scrolled (int amount) {
 		return false;
 	}
 
@@ -31,16 +50,6 @@ public class InputHandler implements InputProcessor {
 
 	@Override
 	public boolean touchDragged (int screenX, int screenY, int pointer) {
-		return false;
-	}
-
-	@Override
-	public boolean mouseMoved (int screenX, int screenY) {
-		return false;
-	}
-
-	@Override
-	public boolean scrolled (int amount) {
 		return false;
 	}
 }

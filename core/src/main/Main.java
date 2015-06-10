@@ -10,24 +10,21 @@ import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.physics.box2d.World;
 import entities.EntityManager;
 import handlers.ContactHandler;
+import handlers.Controls;
 
 import static entities.EntityManager.world;
 import static resources.Vars.*;
 
 public class Main implements Screen {
 
-	private CoreLauncher core;
+	private SpriteBatch batch;
 
-	public static SpriteBatch batch;
+	private OrthographicCamera camera;
+	private Box2DDebugRenderer debugc;
 
-	public static OrthographicCamera camera;
-	public static Box2DDebugRenderer debugc;
+	protected EntityManager eManager;
 
-	public EntityManager eManager;
-
-	public Main (CoreLauncher core) {
-		this.core = core;
-
+	public Main () {
 		batch = new SpriteBatch();
 
 		camera = new OrthographicCamera();
@@ -44,6 +41,7 @@ public class Main implements Screen {
 	private void update (float delta) {
 		camera.update();
 		eManager.update();
+		Controls.update(eManager.getPlayer());
 
 		world.step(delta, 6, 2);
 	}

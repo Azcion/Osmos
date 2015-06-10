@@ -9,6 +9,8 @@ import static entities.EntityManager.world;
 
 public class DynamicBody {
 
+	private Body body;
+
 	private static float w;
 	private static float h;
 	private static int R;
@@ -35,14 +37,14 @@ public class DynamicBody {
 		DynamicBody.bENTITY = (short) bENTITY;
 	}
 
-	public void create (ID id) {
+	public void create (ID id, int size) {
 		switch (id) {
-			case Player: createPlayer(); break;
+			case Player: createPlayer(size); break;
 			// TODO
 		}
 	}
 
-	private void createPlayer () {
+	private void createPlayer (float size) {
 		CircleShape circ = new CircleShape();
 		bdef.type = BodyDef.BodyType.DynamicBody;
 		fdef.shape = circ;
@@ -52,9 +54,13 @@ public class DynamicBody {
 		fdef.restitution = 1;
 
 		bdef.position.set(w / 2 / R, h / 2 / R);
-		Body body = world.createBody(bdef);
-		circ.setRadius(w / 32 / R);
+		body = world.createBody(bdef);
+		circ.setRadius(size / R);
 		body.createFixture(fdef).setUserData("P");
 		body.setGravityScale(0);
+	}
+
+	public Body getBody () {
+		return body;
 	}
 }

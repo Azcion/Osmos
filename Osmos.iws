@@ -68,50 +68,33 @@
     <splitter split-orientation="horizontal" split-proportion="0.5092593">
       <split-first>
         <leaf>
-          <file leaf-file-name="StaticBody.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/entities/StaticBody.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="InputHandler.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/src/handlers/InputHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.1621984">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
                   <folding>
-                    <element signature="e#164#165#0" expanded="true" />
-                    <element signature="e#183#184#0" expanded="true" />
-                    <element signature="e#233#234#0" expanded="true" />
-                    <element signature="e#252#253#0" expanded="true" />
-                    <element signature="e#308#309#0" expanded="true" />
-                    <element signature="e#327#328#0" expanded="true" />
-                    <element signature="e#419#420#0" expanded="true" />
-                    <element signature="e#438#439#0" expanded="true" />
-                    <element signature="e#528#529#0" expanded="true" />
-                    <element signature="e#547#548#0" expanded="true" />
-                    <element signature="e#630#631#0" expanded="true" />
-                    <element signature="e#649#650#0" expanded="true" />
-                    <element signature="e#717#718#0" expanded="true" />
-                    <element signature="e#736#737#0" expanded="true" />
-                    <element signature="e#788#789#0" expanded="true" />
-                    <element signature="e#807#808#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#663#664#0" expanded="true" />
+                    <element signature="e#682#683#0" expanded="true" />
+                    <element signature="e#738#739#0" expanded="true" />
+                    <element signature="e#757#758#0" expanded="true" />
+                    <element signature="e#849#850#0" expanded="true" />
+                    <element signature="e#868#869#0" expanded="true" />
+                    <element signature="e#958#959#0" expanded="true" />
+                    <element signature="e#977#978#0" expanded="true" />
+                    <element signature="e#1060#1061#0" expanded="true" />
+                    <element signature="e#1079#1080#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/main/Main.java">
+          <file leaf-file-name="Controls.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/src/handlers/Controls.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+                  <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -119,11 +102,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EntityManager.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/entities/EntityManager.java">
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/core/src/main/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.4116809">
+                  <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -135,14 +118,45 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Entity.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="EntityManager.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/core/src/entities/EntityManager.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.36324787">
+                  <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#774#775#0" expanded="true" />
+                    <element signature="e#794#795#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Entity.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/core/src/entities/Entity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.29624665">
-                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
                   <folding>
-                    <element signature="e#983#984#0" expanded="true" />
-                    <element signature="e#1005#1006#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1050#1051#0" expanded="true" />
+                    <element signature="e#1078#1079#0" expanded="true" />
+                    <element signature="e#1105#1106#0" expanded="true" />
+                    <element signature="e#1133#1134#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DynamicBody.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/core/src/entities/DynamicBody.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1529#1530#0" expanded="true" />
+                    <element signature="e#1547#1548#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -191,17 +205,19 @@
         <option value="$PROJECT_DIR$/core/src/handlers/EntityManager.java" />
         <option value="$PROJECT_DIR$/core/src/entities/Actor.java" />
         <option value="$PROJECT_DIR$/core/src/entities/ID.java" />
-        <option value="$PROJECT_DIR$/core/src/entities/Entity.java" />
-        <option value="$PROJECT_DIR$/core/src/entities/EntityManager.java" />
-        <option value="$PROJECT_DIR$/core/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/core/src/main/CoreLauncher.java" />
         <option value="$PROJECT_DIR$/html/src/main/client/HtmlLauncher.java" />
         <option value="$PROJECT_DIR$/html/src/main/HtmlLauncher.java" />
         <option value="$PROJECT_DIR$/desktop/src/main/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/entities/StaticBody.java" />
         <option value="$PROJECT_DIR$/core/src/handlers/Input.java" />
+        <option value="$PROJECT_DIR$/core/src/main/CoreLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/handlers/KeyStates.java" />
         <option value="$PROJECT_DIR$/core/src/handlers/InputHandler.java" />
+        <option value="$PROJECT_DIR$/core/src/entities/Entity.java" />
         <option value="$PROJECT_DIR$/core/src/entities/DynamicBody.java" />
+        <option value="$PROJECT_DIR$/core/src/entities/EntityManager.java" />
+        <option value="$PROJECT_DIR$/core/src/handlers/Controls.java" />
+        <option value="$PROJECT_DIR$/core/src/main/Main.java" />
       </list>
     </option>
   </component>
@@ -767,7 +783,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18782791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2339979" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16428572" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -841,34 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/src/main/HtmlLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.055646483">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/main/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25067025">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/entities/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/resources/Vars.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15951742">
@@ -877,10 +865,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/entities/EntityManager.java">
+    <entry file="file://$PROJECT_DIR$/html/src/main/HtmlLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.29624665">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/CoreLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36461127">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desktop/src/main/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11394102">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -897,66 +907,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/CoreLauncher.java">
+    <entry file="file://$PROJECT_DIR$/core/src/handlers/KeyStates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09115282">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.21794872">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/handlers/InputHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1621984">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#788#789#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/entities/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/entities/DynamicBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79490614">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/entities/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.29624665">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
           <folding>
-            <element signature="e#983#984#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/entities/EntityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36324787">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/handlers/Controls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4116809">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

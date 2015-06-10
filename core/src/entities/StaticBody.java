@@ -37,7 +37,9 @@ class StaticBody {
 
 	public void create (ID id) {
 		switch(id) {
-			case Bounds: createBounds(); break;
+			case Bounds:
+				createBounds();
+				break;
 		}
 	}
 
@@ -54,8 +56,12 @@ class StaticBody {
 
 		for (int i = 0; i < 4; ++i) {
 			switch (i) {
-				case 0: rect.setAsBox(h / 2 / R, 1 / R); break;
-				case 2: rect.setAsBox(1 / R, w / 2 / R); break;
+				case 0:
+					rect.setAsBox(h / 2 / R, 1 / R);
+					break;
+				case 2:
+					rect.setAsBox(1 / R, w / 2 / R);
+					break;
 			}
 			bdef.position.set(xc[i]/R, yc[i]/R);
 			Body body = world.createBody(bdef);

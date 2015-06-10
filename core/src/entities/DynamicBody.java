@@ -7,7 +7,7 @@ import com.badlogic.gdx.physics.box2d.FixtureDef;
 
 import static entities.EntityManager.world;
 
-public class DynamicBody {
+class DynamicBody {
 
 	private Body body;
 
@@ -39,8 +39,9 @@ public class DynamicBody {
 
 	public void create (ID id, int size) {
 		switch (id) {
-			case Player: createPlayer(size); break;
-			// TODO
+			case Player:
+				createPlayer(size);
+				break;
 		}
 	}
 
